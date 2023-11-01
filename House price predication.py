@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 %matplotlib inline
 
-USAhousing = pd.read_csv('/archive (4).zip')
+USAhousing = pd.read_csv('USA_Housing.csv')
 USAhousing.head()
 
 USAhousing.info()
